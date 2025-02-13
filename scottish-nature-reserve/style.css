@@ -1,0 +1,79 @@
+/* Set the map size */
+#map {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Adjust the size and position of the features container */
+#features {
+  width: 300px;
+  height: 285px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+}
+
+#pd {
+  margin: 0;
+}
+
+#features h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#pd p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#legend {
+  padding: 5px 10px;
+  box-shadow: 0 1px 2px rgba(0, 50, 0, 0.1);
+  line-height: 30px;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  z-index: 50;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+}
+
+.legend-key {
+  display: inline-block;
+  width: 190px;
+  height: 25px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.legend-key+span {
+  font-size: 12px;
+  color: #333;
+  line-height: 25px;
+}
+
+.mapboxgl-ctrl-geocoder {
+  width: 280px !important;
+  z-index: 100;
+}
+
+/* Weather display at the bottom-left */
+#weather-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
